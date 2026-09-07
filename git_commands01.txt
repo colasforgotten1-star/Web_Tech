@@ -1,0 +1,8 @@
+Git Command Sheet
+
+Check Status: git status
+Stage All Changes: git add .
+Commit Changes: git commit -m "Your commit changes, example 'Another Practice (Sept07)'"
+Push Changes To Remote: git push
+Pull Latest Changes: git pull
+Clone Repository: git clone://github.com/username/repo-name.git
