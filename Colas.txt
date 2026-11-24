@@ -1,6 +1,1888 @@
+commit 5dd8d02f0a22bb79397d17ff251ba5bf8c3afc6c
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-11-07 01:10:39 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-11-07 01:10:39 +0000
+
+    Created Colas.tct
+
+diff --git a/Colas.txt b/Colas.txt
+new file mode 100644
+index 0000000..5d5268c
+--- /dev/null
++++ b/Colas.txt
+@@ -0,0 +1,1865 @@
++commit 14acb4e97fd5d4369f83a3ae0357947ae77f01e9
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Tue Oct 13 01:51:00 2026 +0000
++
++    Created Sched
++
++diff --git a/HTML-LAB/schedule.html b/HTML-LAB/schedule.html
++new file mode 100644
++index 0000000..0716ec9
++--- /dev/null
+++++ b/HTML-LAB/schedule.html
++@@ -0,0 +1,58 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Subject Schedule</title>
+++
+++</head>
+++<body>
+++
+++<h2>Weekly Class Schedule</h2>
+++
+++<table>
+++    <thead>
+++        <tr>
+++            <th>Day</th>
+++            <th>Time</th>
+++            <th>Subject</th>
+++            <th>Room</th>
+++            <th>Instructor</th>
+++        </tr>
+++    </thead>
+++</table>
+++</body>
+++
+++<tr>
+++    <td rowspan="2">MW</td>
+++    <td>7:30 AM - 8:50 AM</td>
+++    <td>CIT 1</td>
+++    <td>Room S312</td>
+++    <td>Prof Jessie <td>
+++</tr>
+++<tr>
+++    <td>11:30 AM - 12:50 Am</td>
+++    <td>CC 5</td>
+++    <td>Room U705</td>
+++    <td>Prof Josh</td>
+++</tr>
+++<tr>
+++    <td>12:50 AM - 2:10 PM</td>
+++    <td>CC5/Lab</td>
+++    <td>Room M304</td>
+++    <td>Prof Josh</td>
+++</tr>
+++<tr>
+++    <td>Friday</td>
+++    <td>7:30 AM - 8:50 AM</td>
+++    <td>CIT 1</td>
+++    <td>Room S312</td>
+++    <td>Prof Jessie <td>
+++</tr>
+++<tr>
+++     <td>12:50 Am - 2:10 PM</td>
+++    <td>CC 5</td>
+++    <td>Room U705</td>
+++    <td>Prof Josh</td>
+++</tr>
+++</html>
++
++commit 14309a1d60e4f3834404fa6f11e980513dae0b53
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Tue Oct 13 01:36:02 2026 +0000
++
++    Updated portfolio
++
++diff --git a/HTML-LAB/emmet - laboratory/portfolio.html b/HTML-LAB/emmet - laboratory/portfolio.html
++index bd439d6..e6aba3a 100644
++--- a/HTML-LAB/emmet - laboratory/portfolio.html	
+++++ b/HTML-LAB/emmet - laboratory/portfolio.html	
++@@ -9,3 +9,116 @@
++     
++     <H1>MINI PROJECT</H1>
++ 
+++<header>
+++    <h1>My Portfolio</h1>
+++    <nav>
+++        <ul>
+++            <li><a href="">Home</a></li>
+++            <li><a href="">About</a></li>
+++            <li><a href="">Skills</a></li>
+++            <li><a href="">Projects</a></li>
+++            <li><a href="">Contact</a></li>
+++        </ul>
+++    </nav>
+++</header>
+++
+++
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Student Portfolio</title>
+++</head>
+++<body>
+++    
+++<header>
+++    <h1>Schuyler Ryo A. Colas</h1>
+++    <p>Aspiring Developer and Information Technology Student</p>
+++
+++    <nav>
+++        <ul>
+++            <li><a href="#home">Home</a></li>
+++            <li><a href="#about">About</a></li>
+++            <li><a href="#skills">Skills</a></li>
+++            <li><a href="#projects">Projects</a></li>
+++            <li><a href="#contact">Contact</a></li>
+++        </ul>
+++    </nav>
+++</header>
+++
+++<main>
+++    <section id="about"></section>
+++    <h2>About Me</h2>
+++    <p>Hello I'm an IT student interested in web development, networking, and relationable database.</p>
+++    <img src="https://via.placeholder.com/150" alt="Profile Picture"> width="150"
+++
+++    <section>
+++        <section id="skills">
+++            <h2>Skills</h2>
+++            <ul>
+++                <li>HTML</li>
+++                <li>CSS</li>
+++                <li>JavaScript</li>
+++                <li>PHP</li>
+++                <li>MySQL</li>
+++                <li>Git</li>
+++            </ul>
+++        </section>
+++        <section id="projects">
+++            <h2>Projects</h2>
+++            <div class="project-card">
+++                <h3>Personal Portfolio Website</h3>
+++                <p>Personal website built using HTML and CSS to showcase academic projects and technical skills</p>
+++                <a href="#">View Project</a>
+++
+++            </div>
+++
+++            <div class="project-card">
+++                <h3>Student Enrollment System</h3>
+++                <p>A database manmagement project designed using SQL to handle student registrations and module management</p>
+++                <a href="#">View Project</a>
+++            </div>
+++
+++            <div class="project-card">
+++                <h3>Network Topology Simulation</h3>
+++                <p>A cisco packet tracer project implementing DHCP, SLAAC, and router</p>
+++                <a href="#">View Project</a>
+++            </div>
+++        </section>
+++
+++        <section id="contact">
+++            <h2>Contact Me</h2>
+++            <form action="#" method="post">
+++                <p>
+++                    <label for="name">Name:</label><br>
+++                    <input type="text" name="name" id="name">
+++                </p>
+++                <p>
+++                    <label for="email">Email:</label><br>
+++                    <input type="email" name="email" id="email">
+++                </p>
+++                <p>
+++                    <label for="subject">Subject</label><br>
+++                    <input type="text" name="Subject" id="Subject">
+++                </p>
+++                <p>
+++                    <label for="message">Message</label>
+++                    <textarea name="message" id="message" rows="5">required</textarea>
+++                </p>
+++                <p>
+++                    <button type="submit">Submit</button>
+++                </p>
+++            </form>
+++        </section>
+++    </section>
+++</main>
+++
+++<footer>
+++    <p>
+++     2026-Schuyler Ryo Attitew Colas
+++    </p>
+++</footer>
+++
+++</body>
+++</html>
++
++commit 0fd5f2f27c6150f4e21b52659884c93b8ef64df0
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Tue Oct 13 01:35:34 2026 +0000
++
++    Updated indext
++
++diff --git a/HTML-LAB/emmet - laboratory/indext.html b/HTML-LAB/emmet - laboratory/indext.html
++index f0eca7d..0d55db0 100644
++--- a/HTML-LAB/emmet - laboratory/indext.html	
+++++ b/HTML-LAB/emmet - laboratory/indext.html	
++@@ -3,7 +3,7 @@
++ <head>
++     <meta charset="UTF-8">
++     <meta name="viewport" content="width=device-width, initial-scale=1.0">
++-    <title>INDEX.HTML</title>
+++    <title>index.html</title>
++ </head>
++ <body>
++     
++
++commit bab033ee4809181af952c9ef2665f09dc3f0ce5e
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Sat Oct 10 01:48:52 2026 +0000
++
++    Updated EMMET Portfolio
++
++diff --git a/HTML-LAB/emmet - laboratory/portfolio.html b/HTML-LAB/emmet - laboratory/portfolio.html
++index 73ee5a6..bd439d6 100644
++--- a/HTML-LAB/emmet - laboratory/portfolio.html	
+++++ b/HTML-LAB/emmet - laboratory/portfolio.html	
++@@ -3,79 +3,9 @@
++ <head>
++     <meta charset="UTF-8">
++     <meta name="viewport" content="width=device-width, initial-scale=1.0">
++-    <title>Portfolio</title>
+++    <title>portfolio.html</title>
++ </head>
++ <body>
++     
++-<H1>Colas, Schuyler Ryo A.</H1>
++-<h2>This is a test portfolio</h2>
+++    <H1>MINI PROJECT</H1>
++ 
++-<nav>
++-    <a href="home.html">Home</a>
++-    <a href="about.html">About</a>
++-    <a href="skills.html">Skills</a>
++-    <a href="projects.html">Projects</a>
++-    <a href="contact.html">Contacts</a>
++-</nav>
++-
++-<section>
++-    <h1>AboutPage</h1>
++-    <p>Born in 2006, July 8. Currently 17 years old.</p>
++-<img src="" alt="">
++-</section>
++-
++-<section>
++-    <h1>Skills</h1>
++-    <ul>
++-        <li>HTML</li>
++-        <li>CSS</li>
++-        <li>JavaScript</li>
++-        <li>PHP</li>
++-        <li>My SQL</li>
++-        <li>Git</li>
++-    </ul>
++-</section>
++-
++-<section>
++-
++-<h1>Project 01</h1>
++-<h2>Description</h2>
++-<p>A practice project.</p>
++-<a href="links.html">Project Links</a>
++-</section>
++-
++-<section>
++-<h1>Contact</h1>
++-<div></div>
++-<input type="text" class="name"><input type="text" placholder="Enter your Name">
++-<div></div>
++-<input type="text" class="email"><input type="text" placeholder="Enter your Email">
++-<div></div>
++-<input type="text" class="subject"><input type="text" placeholder="Enter your Subject">
++-<div></div>
++-<input type="text" class="message"><input type="text" placeholder="Compose your Message">
++-<div></div>
++-<input type="submit" value="">
++-</section>
++-
++-<footer>2026-Colas</footer>
++-
++-
++-<header>
++-    <h1 My portfolio>
++-        <nav>
++-            <ul>
++-                <li></li>
++-                <li></li>
++-                <li></li>
++-                <li></li>
++-                <li></li>
++-            </ul>
++-        </nav>
++-    </h1>
++-</header>
++-
++-
++-
++-</body>
++-</html>
++\ No newline at end of file
++
++commit 281400b25dcb9d792f5a9df1eb488dc199b3338e
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Sat Oct 10 01:48:13 2026 +0000
++
++    Updated EMMET Indext
++
++diff --git a/HTML-LAB/emmet - laboratory/indext.html b/HTML-LAB/emmet - laboratory/indext.html
++index d01f779..f0eca7d 100644
++--- a/HTML-LAB/emmet - laboratory/indext.html	
+++++ b/HTML-LAB/emmet - laboratory/indext.html	
++@@ -3,9 +3,13 @@
++ <head>
++     <meta charset="UTF-8">
++     <meta name="viewport" content="width=device-width, initial-scale=1.0">
++-    <title>Document</title>
+++    <title>INDEX.HTML</title>
++ </head>
++ <body>
++     
+++<H1>VERIFY EMMET</H1>
+++
+++<P>Test Emmet = ! + Tab</P>
+++
++ </body>
++ </html>
++\ No newline at end of file
++
++commit 8ae823142137475eb1b9abf26f4ec452fd3205e1
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Sat Oct 10 01:47:29 2026 +0000
++
++    Updated 05
++
++diff --git a/HTML-LAB/emmet - laboratory/05-semantic.html b/HTML-LAB/emmet - laboratory/05-semantic.html
++index b3d88ca..8ea575d 100644
++--- a/HTML-LAB/emmet - laboratory/05-semantic.html	
+++++ b/HTML-LAB/emmet - laboratory/05-semantic.html	
++@@ -3,10 +3,12 @@
++ <head>
++     <meta charset="UTF-8">
++     <meta name="viewport" content="width=device-width, initial-scale=1.0">
++-    <title>05Semantic</title>
+++    <title>05Semantic.html</title>
++ </head>
++ <body>
++     
+++<H1>SEMANTIC HTML</H1>
+++
++ <header></header>
++ <nav></nav>
++ <main></main>
++@@ -15,34 +17,31 @@
++ <aside></aside>
++ <footer></footer>
++ 
+++<H2>CHALLENGE</H2>
++ 
++-<h2>Challenge(practice)</h2>
++ <header>
++-    <h1>HTML WEb</h1>
+++    <h1>Website Testing</h1>
++ </header>
++-
++ <nav>
++     <ul>
++-        <li><a href="about.html">About Us</a></li>
++-        <li><a href="contact.html">Contacts</a></li>
++-        <li><a href="indext.html">Home</a></li>
++-        <li><a href="links.html">Links</a></li>
+++        <li><a href="">Nav 1</a></li>
+++        <li><a href="">Nav 2</a></li>
+++        <li><a href="">Nav 3</a></li>
+++        <li><a href="">Nav 4</a></li>
++     </ul>
++ </nav>
++-
++ <main>
++     <section>
++-        <article>This is just a practice of emmet coding, was done in oct 06,
++-            8:50 - 10:10 am
++-        </article>
+++        <article>Article Content</article>
++     </section>
++ </main>
++-
++ <footer>
++-    <p>Done in Oct 06</p>
+++    <p>Copyright 2026</p>
++ </footer>
++ 
++ 
+++<H1>COMPLEX EMMET ABBREVIATION</H1>
+++
++ <div class="container">
++     <header>
++         <h1>My Portfolio</h1>
++
++commit 4348827422e77e7eeeb4005d601181544eefcf87
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Sat Oct 10 01:46:57 2026 +0000
++
++    Updated o4
++
++diff --git a/HTML-LAB/emmet - laboratory/o4=form.html b/HTML-LAB/emmet - laboratory/o4=form.html
++index 7a392b7..ea92cf7 100644
++--- a/HTML-LAB/emmet - laboratory/o4=form.html	
+++++ b/HTML-LAB/emmet - laboratory/o4=form.html	
++@@ -3,10 +3,12 @@
++ <head>
++     <meta charset="UTF-8">
++     <meta name="viewport" content="width=device-width, initial-scale=1.0">
++-    <title>o4FormHTML</title>
+++    <title>04Form.html</title>
++ </head>
++ <body>
++     
+++    <H1>CREATING A FORM</H1>
+++
++     <input:text6></input:text6>
++ 
++     <input type="email" name="" id="">
++@@ -16,27 +18,19 @@
++     <input type="submit" value="">
++ 
++ 
++-<h2>Challenge</h2>
++-
++-<div class="h1">Student Id</div>
++-<input type="number" placeholder="Enter your Student ID">
++-
++-<div class="h1">Email</div>
++-<input type="text" placeholder="Enter Your Full Name">
++-
++-<div class="h1">Password</div>
++-<input type="password" placeholder="Enter Your Password">
++-
++-<div class="h1">Gender</div>
++-<input type="text" placeholder="Enter your Gender">
++-
++-<div class="h1">Course</div>
++-<input type="text" placeholder="Enter your Course">
++-
++-<div class="h1">Address</div>
++-<input type="text" placeholder="Enter your Address">
+++<h2>CHALLENGE</h2>
++ 
++-<input type="submit" value="">
+++<form action="">
+++    <div><label for="">Student ID</label><input type="type"></div>
+++    <div><label for="">Full Name</label><input type="text"></div>
+++    <div><label for="">Email</label><input type="email"></div>
+++    <div><label for="">Password</label><input type="password"></div>
+++    <div><label for="">Gender</label><input type="radio"><input type="radio"></div>
+++    <div><label for="">Course</label><select name="" id=""></select></div>
+++    <div><label for="">Hobbies</label><input type="checkbox"><input type="checkbox"><input type="checkbox"></div>
+++    <div><label for="">Address</label><textarea name="" id=""></textarea></div>
+++    <input type="submit">
+++</form>
++ 
++ </body>
++ </html>
++\ No newline at end of file
++
++commit 9b9aa466b87068f01a52b4484dfe1606599a5a1e
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Sat Oct 10 01:46:26 2026 +0000
++
++    Updated 03
++
++diff --git a/HTML-LAB/emmet - laboratory/03=navigation.html b/HTML-LAB/emmet - laboratory/03=navigation.html
++index 7c290d1..2ef8b25 100644
++--- a/HTML-LAB/emmet - laboratory/03=navigation.html	
+++++ b/HTML-LAB/emmet - laboratory/03=navigation.html	
++@@ -3,11 +3,11 @@
++ <head>
++     <meta charset="UTF-8">
++     <meta name="viewport" content="width=device-width, initial-scale=1.0">
++-    <title>03Navigation.HTML </title>
+++    <title>03Navigation.html</title>
++ </head>
++ <body>
++     
++-<H1>Numbering with $ </H1>                                                                                                                     
+++<H1>NUMBERING WITH $ </H1>                                                                                                                     
++ 
++ <ul>
++     <li class="item1"></li>
++@@ -18,11 +18,41 @@
++ </ul>
++ 
++ 
+++<nav>
+++    <ul>
+++        <li><a href=""></a></li>
+++        <li><a href=""></a></li>
+++        <li><a href=""></a></li>
+++        <li><a href=""></a></li>
+++        <li><a href=""></a></li>
+++    </ul>
+++</nav>
++ 
+++<nav>
+++    <ul>
+++        <li><a href="">Menu 1</a></li>
+++        <li><a href="">Menu 2</a></li>
+++        <li><a href="">Menu 3</a></li>
+++        <li><a href="">Menu 4</a></li>
+++        <li><a href="">Menu 5</a></li>
+++    </ul>
+++</nav>
++ 
+++<H1>CHALLENGE</H1>
++ 
+++<ul>
+++    <li>Homes1</li>
+++    <li>Homes2</li>
+++    <li>Homes3</li>
+++    <li>Homes4</li>
+++    <li>Homes5</li>
+++    About
+++    <li>Services</li>
+++    <li>Projects</li>
+++    <li>Contacts</li>
+++</ul>
++ 
++-
+++<H1>CREATING NAVIGATION</H1>
++ 
++ <nav>
++     <ul>
++@@ -44,12 +74,29 @@
++     </ul>
++ </nav>
++ 
++-<input type="text" typ="text">
++-<input type="text" placeholder="Enter your Name">
++-<input type="email" placeholder="">
++-<img src="images/profile.jpg" alt="Profile Photo">
++-<a href="khhtps:/www.google.com">Google</a>
+++<H1>CHALLENGE</H1>
+++
+++<nav>
+++    <ul>
+++        <li><a href="">Home</a></li>
+++        <li><a href="">About</a></li>
+++        <li><a href="">Portfolio</a></li>
+++        <li><a href="">Services</a></li>
+++        <li><a href="">Conatct</a></li>
+++    </ul>
+++</nav>
+++
+++<H1>HTML ATTRIBUTES</H1>
+++
+++<input type="text">
+++
+++<input type="text" placeholder="Enter your Name.">
+++
+++<input type="email" placeholder="Name your Email">
+++
+++<input type="text" src="images/profile.jpg" alt="Profile Photo">
++ 
+++<a href="https://www.google.com">Google</a>
++ 
++ </body>
++ </html>
++\ No newline at end of file
++
++commit 1792a86eaf3dd138d909f40997e5bb31bd59af1c
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Sat Oct 10 01:45:38 2026 +0000
++
++    Updared 02
++
++diff --git a/HTML-LAB/emmet - laboratory/02=classes=ids.html b/HTML-LAB/emmet - laboratory/02=classes=ids.html
++index 7024de8..0435415 100644
++--- a/HTML-LAB/emmet - laboratory/02=classes=ids.html	
+++++ b/HTML-LAB/emmet - laboratory/02=classes=ids.html	
++@@ -8,13 +8,14 @@
++ <body>
++ 
++ 
++-    <H1>Classes and IDs</H1>
+++    <H1>CLASSES AND IDS</H1>
++ 
++     <p class="introduction"></p>
++     <div id="container"></div>
++     <div class="card featured"></div>
++     <section id="about" class="content-section"></section>
++ 
+++<h2>TASK01</h2>
++ 
++     <h1 class="site-header"></h1>
++     <nav id="main-nav"></nav>
++@@ -31,16 +32,17 @@
++     </p>
++ 
++ 
++-    <H1>Child and Sibling Operators</H1>
+++    <H1>CHILD AND SIBLINGS OPERATORS</H1>
++ 
++ 
++-<h2>Child Operator(>)</h2>
+++<h2>CHILD OPERATOR(>)</h2>
++ 
++     <ul>
++         <li></li>
++     </ul>
++ 
++-    
+++<h2>TASK02</h2>
+++
++ <nav>
++     <ul>
++         <li></li>
++@@ -59,18 +61,20 @@
++ </nav>
++ 
++ 
++-<h2>Sibling Operator (+)</h2>
+++<h2>SIBLING OPERATOR(+)</h2>
++ 
++ <h1></h1>
++ <p></p>
++ 
+++<h2>TASK03</h2>
+++
++ <h1></h1>
++ <h2></h2>
++ <p></p>
++ <p></p>
++ 
++ 
++-<h2>Multiplication Operator</h2>
+++<h2>MULTIPLICATION OPERATOR</h2>
++ 
++ <li></li>
++ <li></li>
++@@ -78,6 +82,8 @@
++ <li></li>
++ <li></li>
++ 
+++<H2>TASK04</H2>
+++
++ <div></div>
++ <div></div>
++ <div></div>
++@@ -88,11 +94,13 @@
++ <p></p>
++ <p></p>
++ 
++-<H1>Adding Text with {} </H1>
+++<H1>ADDING TEXT WITH {} </H1>
++ 
++ <h1>Web Technologies</h1>
++ <p>Welcome to my webpage</p>
++ 
+++<H2>TASK05</H2>
+++
++ <h1>My Web DEvelopment Journey</h1>
++ <p>I am learning HTML, CSS, JavaScript, and web technologies</p>
++ 
++
++commit fbccceb917d9539171b0d5cdef62df5df5bb20a1
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Sat Oct 10 01:45:02 2026 +0000
++
++    Updated 01
++
++diff --git a/HTML-LAB/emmet - laboratory/01=basic.html b/HTML-LAB/emmet - laboratory/01=basic.html
++index 6c1c3f0..fa44a47 100644
++--- a/HTML-LAB/emmet - laboratory/01=basic.html	
+++++ b/HTML-LAB/emmet - laboratory/01=basic.html	
++@@ -7,7 +7,10 @@
++ </head>
++ <body>
++     
++-    <h1>Emmet abbreviations</h1>
+++    <h1>BASIC EMMET SHORTCUTS</h1>
+++
+++
+++    <h2>TASK01</h2>
++ 
++     <h2></h2>
++     <h2></h2>
++
++commit 296e6993454bf88577c759604010294281b480bc
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Thu Oct 8 01:47:37 2026 +0000
++
++    Updatr4ed Portfolio HTML
++
++diff --git a/HTML-LAB/emmet - laboratory/portfolio.html b/HTML-LAB/emmet - laboratory/portfolio.html
++index 9b92dc1..73ee5a6 100644
++--- a/HTML-LAB/emmet - laboratory/portfolio.html	
+++++ b/HTML-LAB/emmet - laboratory/portfolio.html	
++@@ -18,5 +18,64 @@
++     <a href="contact.html">Contacts</a>
++ </nav>
++ 
+++<section>
+++    <h1>AboutPage</h1>
+++    <p>Born in 2006, July 8. Currently 17 years old.</p>
+++<img src="" alt="">
+++</section>
+++
+++<section>
+++    <h1>Skills</h1>
+++    <ul>
+++        <li>HTML</li>
+++        <li>CSS</li>
+++        <li>JavaScript</li>
+++        <li>PHP</li>
+++        <li>My SQL</li>
+++        <li>Git</li>
+++    </ul>
+++</section>
+++
+++<section>
+++
+++<h1>Project 01</h1>
+++<h2>Description</h2>
+++<p>A practice project.</p>
+++<a href="links.html">Project Links</a>
+++</section>
+++
+++<section>
+++<h1>Contact</h1>
+++<div></div>
+++<input type="text" class="name"><input type="text" placholder="Enter your Name">
+++<div></div>
+++<input type="text" class="email"><input type="text" placeholder="Enter your Email">
+++<div></div>
+++<input type="text" class="subject"><input type="text" placeholder="Enter your Subject">
+++<div></div>
+++<input type="text" class="message"><input type="text" placeholder="Compose your Message">
+++<div></div>
+++<input type="submit" value="">
+++</section>
+++
+++<footer>2026-Colas</footer>
+++
+++
+++<header>
+++    <h1 My portfolio>
+++        <nav>
+++            <ul>
+++                <li></li>
+++                <li></li>
+++                <li></li>
+++                <li></li>
+++                <li></li>
+++            </ul>
+++        </nav>
+++    </h1>
+++</header>
+++
+++
+++
++ </body>
++ </html>
++\ No newline at end of file
++
++commit 69232c5af41064238526c1fd145359e1248c1fa8
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Thu Oct 8 01:46:32 2026 +0000
++
++    Updated o4 form HTML
++
++diff --git a/HTML-LAB/emmet - laboratory/o4=form.html b/HTML-LAB/emmet - laboratory/o4=form.html
++index 748f426..7a392b7 100644
++--- a/HTML-LAB/emmet - laboratory/o4=form.html	
+++++ b/HTML-LAB/emmet - laboratory/o4=form.html	
++@@ -8,6 +8,7 @@
++ <body>
++     
++     <input:text6></input:text6>
+++
++     <input type="email" name="" id="">
++     <input type="password" name="" id="">
++     <input type="checkbox" name="" id="">
++@@ -16,18 +17,25 @@
++ 
++ 
++ <h2>Challenge</h2>
+++
++ <div class="h1">Student Id</div>
++ <input type="number" placeholder="Enter your Student ID">
+++
++ <div class="h1">Email</div>
++ <input type="text" placeholder="Enter Your Full Name">
+++
++ <div class="h1">Password</div>
++ <input type="password" placeholder="Enter Your Password">
+++
++ <div class="h1">Gender</div>
++ <input type="text" placeholder="Enter your Gender">
+++
++ <div class="h1">Course</div>
++ <input type="text" placeholder="Enter your Course">
+++
++ <div class="h1">Address</div>
++ <input type="text" placeholder="Enter your Address">
+++
++ <input type="submit" value="">
++ 
++ </body>
++
++commit 74d9835fb716f5cac587b1ebb9fe5190b7ca2b45
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Thu Oct 8 01:22:43 2026 +0000
++
++    Updated 05 semantic html
++
++diff --git a/HTML-LAB/emmet - laboratory/05-semantic.html b/HTML-LAB/emmet - laboratory/05-semantic.html
++index 5955c5b..b3d88ca 100644
++--- a/HTML-LAB/emmet - laboratory/05-semantic.html	
+++++ b/HTML-LAB/emmet - laboratory/05-semantic.html	
++@@ -42,5 +42,25 @@
++     <p>Done in Oct 06</p>
++ </footer>
++ 
+++
+++<div class="container">
+++    <header>
+++        <h1>My Portfolio</h1>
+++        Web Developer
+++        <nav>
+++            <ul>
+++                <li><a href="">Menu 1</a></li>
+++                <li><a href="">Menu 2</a></li>
+++                <li><a href="">Menu 3</a></li>
+++                <li><a href="">Menu 4</a></li>
+++            </ul>
+++        </nav>
+++    </header>
+++</div>
+++
+++
+++
+++
+++
++ </body>
++ </html>
++\ No newline at end of file
++
++commit e51845eb7b9eba3b0f64ca57514fb3a9e66e4618
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Thu Oct 8 01:21:18 2026 +0000
++
++    Updated 04 form html
++
++diff --git a/HTML-LAB/emmet - laboratory/o4=form.html b/HTML-LAB/emmet - laboratory/o4=form.html
++index 2a1ee19..748f426 100644
++--- a/HTML-LAB/emmet - laboratory/o4=form.html	
+++++ b/HTML-LAB/emmet - laboratory/o4=form.html	
++@@ -16,14 +16,19 @@
++ 
++ 
++ <h2>Challenge</h2>
+++<div class="h1">Student Id</div>
++ <input type="number" placeholder="Enter your Student ID">
+++<div class="h1">Email</div>
++ <input type="text" placeholder="Enter Your Full Name">
+++<div class="h1">Password</div>
++ <input type="password" placeholder="Enter Your Password">
+++<div class="h1">Gender</div>
++ <input type="text" placeholder="Enter your Gender">
+++<div class="h1">Course</div>
++ <input type="text" placeholder="Enter your Course">
+++<div class="h1">Address</div>
++ <input type="text" placeholder="Enter your Address">
++ <input type="submit" value="">
++ 
++-
++ </body>
++ </html>
++\ No newline at end of file
++
++commit d4ecf89708c25c8069a79bc4ae178190adeb6c35
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Thu Oct 8 01:19:54 2026 +0000
++
++    Created portfolio
++
++diff --git a/HTML-LAB/emmet - laboratory/portfolio.html b/HTML-LAB/emmet - laboratory/portfolio.html
++new file mode 100644
++index 0000000..9b92dc1
++--- /dev/null
+++++ b/HTML-LAB/emmet - laboratory/portfolio.html	
++@@ -0,0 +1,22 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Portfolio</title>
+++</head>
+++<body>
+++    
+++<H1>Colas, Schuyler Ryo A.</H1>
+++<h2>This is a test portfolio</h2>
+++
+++<nav>
+++    <a href="home.html">Home</a>
+++    <a href="about.html">About</a>
+++    <a href="skills.html">Skills</a>
+++    <a href="projects.html">Projects</a>
+++    <a href="contact.html">Contacts</a>
+++</nav>
+++
+++</body>
+++</html>
++\ No newline at end of file
++
++commit eb321011f98d0f7cec511d1dce0899b4feb4a118
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Tue Oct 6 01:42:54 2026 +0000
++
++    updated emmet
++
++diff --git a/HTML-LAB/emmet - laboratory/05-semantic.html b/HTML-LAB/emmet - laboratory/05-semantic.html
++index e8c72f4..5955c5b 100644
++--- a/HTML-LAB/emmet - laboratory/05-semantic.html	
+++++ b/HTML-LAB/emmet - laboratory/05-semantic.html	
++@@ -16,7 +16,31 @@
++ <footer></footer>
++ 
++ 
++-<h2>Challenge</h2>
+++<h2>Challenge(practice)</h2>
+++<header>
+++    <h1>HTML WEb</h1>
+++</header>
+++
+++<nav>
+++    <ul>
+++        <li><a href="about.html">About Us</a></li>
+++        <li><a href="contact.html">Contacts</a></li>
+++        <li><a href="indext.html">Home</a></li>
+++        <li><a href="links.html">Links</a></li>
+++    </ul>
+++</nav>
+++
+++<main>
+++    <section>
+++        <article>This is just a practice of emmet coding, was done in oct 06,
+++            8:50 - 10:10 am
+++        </article>
+++    </section>
+++</main>
+++
+++<footer>
+++    <p>Done in Oct 06</p>
+++</footer>
++ 
++ </body>
++ </html>
++\ No newline at end of file
++
++commit 1153e83ca83196c637f9c51b2fa0a371ff1b5bb9
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Tue Oct 6 01:28:10 2026 +0000
++
++    Upadated emmet
++
++diff --git a/HTML-LAB/emmet - laboratory/05-semantic.html b/HTML-LAB/emmet - laboratory/05-semantic.html
++new file mode 100644
++index 0000000..e8c72f4
++--- /dev/null
+++++ b/HTML-LAB/emmet - laboratory/05-semantic.html	
++@@ -0,0 +1,22 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>05Semantic</title>
+++</head>
+++<body>
+++    
+++<header></header>
+++<nav></nav>
+++<main></main>
+++<section></section>
+++<article></article>
+++<aside></aside>
+++<footer></footer>
+++
+++
+++<h2>Challenge</h2>
+++
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/HTML-LAB/emmet - laboratory/o4=form.html b/HTML-LAB/emmet - laboratory/o4=form.html
++index 0443951..2a1ee19 100644
++--- a/HTML-LAB/emmet - laboratory/o4=form.html	
+++++ b/HTML-LAB/emmet - laboratory/o4=form.html	
++@@ -3,7 +3,7 @@
++ <head>
++     <meta charset="UTF-8">
++     <meta name="viewport" content="width=device-width, initial-scale=1.0">
++-    <title>o4Form</title>
+++    <title>o4FormHTML</title>
++ </head>
++ <body>
++     
++@@ -11,6 +11,19 @@
++     <input type="email" name="" id="">
++     <input type="password" name="" id="">
++     <input type="checkbox" name="" id="">
+++    <input type="radio" name="" id="">
+++    <input type="submit" value="">
+++
+++
+++<h2>Challenge</h2>
+++<input type="number" placeholder="Enter your Student ID">
+++<input type="text" placeholder="Enter Your Full Name">
+++<input type="password" placeholder="Enter Your Password">
+++<input type="text" placeholder="Enter your Gender">
+++<input type="text" placeholder="Enter your Course">
+++<input type="text" placeholder="Enter your Address">
+++<input type="submit" value="">
+++
++ 
++ </body>
++ </html>
++\ No newline at end of file
++
++commit e41641f8fe0f33bdf735bcbd91ca9cbe0cda04bd
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Tue Oct 6 01:07:54 2026 +0000
++
++    Update emmet
++
++diff --git a/HTML-LAB/emmet - laboratory/02=classes=ids.html b/HTML-LAB/emmet - laboratory/02=classes=ids.html
++index 59e1a26..7024de8 100644
++--- a/HTML-LAB/emmet - laboratory/02=classes=ids.html	
+++++ b/HTML-LAB/emmet - laboratory/02=classes=ids.html	
++@@ -94,11 +94,7 @@
++ <p>Welcome to my webpage</p>
++ 
++ <h1>My Web DEvelopment Journey</h1>
++-<p>I am learning HTML, CSS, JavaScript, and web development</p>
++-
++-
++-<H1>Numbering with $ </H1>
++-
+++<p>I am learning HTML, CSS, JavaScript, and web technologies</p>
++ 
++ </body>
++ </html>
++\ No newline at end of file
++diff --git a/HTML-LAB/emmet - laboratory/03=navigation.html b/HTML-LAB/emmet - laboratory/03=navigation.html
++index c5f5f5e..7c290d1 100644
++--- a/HTML-LAB/emmet - laboratory/03=navigation.html	
+++++ b/HTML-LAB/emmet - laboratory/03=navigation.html	
++@@ -19,5 +19,37 @@
++ 
++ 
++ 
+++
+++
+++
+++
+++
+++<nav>
+++    <ul>
+++        <li><a href=""></a></li>
+++        <li><a href=""></a></li>
+++        <li><a href=""></a></li>
+++        <li><a href=""></a></li>
+++        <li><a href=""></a></li>
+++    </ul>
+++</nav>
+++
+++<nav>
+++    <ul>
+++        <li><a href="">Menu 1</a></li>
+++        <li><a href="">Menu 2</a></li>
+++        <li><a href="">Menu 3</a></li>
+++        <li><a href="">Menu 4</a></li>
+++        <li><a href="">Menu 5</a></li>
+++    </ul>
+++</nav>
+++
+++<input type="text" typ="text">
+++<input type="text" placeholder="Enter your Name">
+++<input type="email" placeholder="">
+++<img src="images/profile.jpg" alt="Profile Photo">
+++<a href="khhtps:/www.google.com">Google</a>
+++
+++
++ </body>
++ </html>
++\ No newline at end of file
++diff --git a/HTML-LAB/emmet - laboratory/o4=form.html b/HTML-LAB/emmet - laboratory/o4=form.html
++new file mode 100644
++index 0000000..0443951
++--- /dev/null
+++++ b/HTML-LAB/emmet - laboratory/o4=form.html	
++@@ -0,0 +1,16 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>o4Form</title>
+++</head>
+++<body>
+++    
+++    <input:text6></input:text6>
+++    <input type="email" name="" id="">
+++    <input type="password" name="" id="">
+++    <input type="checkbox" name="" id="">
+++
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/HTML-LAB/links.html b/HTML-LAB/links.html
++index 8b13789..e69de29 100644
++--- a/HTML-LAB/links.html
+++++ b/HTML-LAB/links.html
++@@ -1 +0,0 @@
++-
++
++commit 0591330c657409ab7d4e1569e44f22b7ca90c2fe
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Sat Oct 3 01:51:11 2026 +0000
++
++    Practiced Emmet Abbreviation, Created Emmet-Laboratory
++
++diff --git a/HTML-LAB/emmet - laboratory/01=basic.html b/HTML-LAB/emmet - laboratory/01=basic.html
++new file mode 100644
++index 0000000..6c1c3f0
++--- /dev/null
+++++ b/HTML-LAB/emmet - laboratory/01=basic.html	
++@@ -0,0 +1,34 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>01Basic.Html</title>
+++</head>
+++<body>
+++    
+++    <h1>Emmet abbreviations</h1>
+++
+++    <h2></h2>
+++    <h2></h2>
+++
+++        <p></p>
+++        <p></p>
+++        <p></p>
+++
+++        <div></div>
+++
+++        <header></header>
+++
+++        <nav></nav>
+++
+++        <main></main>
+++
+++        <footer></footer>
+++        
+++        <p>Shortcuts used: 
+++            h2*2 = Generates 2 heading 2 
+++            P*3 = Generates 3 paragraphs</p>
+++
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/HTML-LAB/emmet - laboratory/02=classes=ids.html b/HTML-LAB/emmet - laboratory/02=classes=ids.html
++new file mode 100644
++index 0000000..59e1a26
++--- /dev/null
+++++ b/HTML-LAB/emmet - laboratory/02=classes=ids.html	
++@@ -0,0 +1,104 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>02Classes-ids.html</title>
+++</head>
+++<body>
+++
+++
+++    <H1>Classes and IDs</H1>
+++
+++    <p class="introduction"></p>
+++    <div id="container"></div>
+++    <div class="card featured"></div>
+++    <section id="about" class="content-section"></section>
+++
+++
+++    <h1 class="site-header"></h1>
+++    <nav id="main-nav"></nav>
+++    <main class="content"></main>
+++    <section id="about"></section>
+++    <footer class="site-footer"></footer>
+++
+++    <p>Abbreviation used:
+++        h1.site-header = Created a heading with the class "site-header"
+++        nav#main-site = Created a navigation with the ID "main-site"
+++        main.content = Created a main with the class "content"
+++        section#about = Created a section with the ID "about"
+++        footer.site-footer = Created a footer with the class "site-footer"
+++    </p>
+++
+++
+++    <H1>Child and Sibling Operators</H1>
+++
+++
+++<h2>Child Operator(>)</h2>
+++
+++    <ul>
+++        <li></li>
+++    </ul>
+++
+++    
+++<nav>
+++    <ul>
+++        <li></li>
+++    </ul>
+++</nav>
+++
+++
+++<nav>
+++    <ul>
+++        <li></li>
+++        <li></li>
+++        <li></li>
+++        <li></li>
+++        <li></li>
+++    </ul>
+++</nav>
+++
+++
+++<h2>Sibling Operator (+)</h2>
+++
+++<h1></h1>
+++<p></p>
+++
+++<h1></h1>
+++<h2></h2>
+++<p></p>
+++<p></p>
+++
+++
+++<h2>Multiplication Operator</h2>
+++
+++<li></li>
+++<li></li>
+++<li></li>
+++<li></li>
+++<li></li>
+++
+++<div></div>
+++<div></div>
+++<div></div>
+++
+++<p></p>
+++<p></p>
+++<p></p>
+++<p></p>
+++<p></p>
+++
+++<H1>Adding Text with {} </H1>
+++
+++<h1>Web Technologies</h1>
+++<p>Welcome to my webpage</p>
+++
+++<h1>My Web DEvelopment Journey</h1>
+++<p>I am learning HTML, CSS, JavaScript, and web development</p>
+++
+++
+++<H1>Numbering with $ </H1>
+++
+++
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/HTML-LAB/emmet - laboratory/03=navigation.html b/HTML-LAB/emmet - laboratory/03=navigation.html
++new file mode 100644
++index 0000000..c5f5f5e
++--- /dev/null
+++++ b/HTML-LAB/emmet - laboratory/03=navigation.html	
++@@ -0,0 +1,23 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>03Navigation.HTML </title>
+++</head>
+++<body>
+++    
+++<H1>Numbering with $ </H1>                                                                                                                     
+++
+++<ul>
+++    <li class="item1"></li>
+++    <li class="item2"></li>
+++    <li class="item3"></li>
+++    <li class="item4"></li>
+++    <li class="item5"></li>
+++</ul>
+++
+++
+++
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/HTML-LAB/emmet - laboratory/indext.html b/HTML-LAB/emmet - laboratory/indext.html
++new file mode 100644
++index 0000000..d01f779
++--- /dev/null
+++++ b/HTML-LAB/emmet - laboratory/indext.html	
++@@ -0,0 +1,11 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<body>
+++    
+++</body>
+++</html>
++\ No newline at end of file
++
++commit 87132a255d8d61b5507442bc37baa713cb69e3dc
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Sat Oct 3 09:05:19 2026 +0800
++
++    Update links.html
++
++diff --git a/HTML-LAB/links.html b/HTML-LAB/links.html
++index 05c7263..8b13789 100644
++--- a/HTML-LAB/links.html
+++++ b/HTML-LAB/links.html
++@@ -1,54 +1 @@
++-<!DOCTYPE html>
++-<html lang="en">
++-<head>
++-    <meta charset="UTF-8">
++-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++-    <title>Lab Act 03 Lists</title>
++-</head>
++-<body>
++-   <!--A. Unordered List -->
++-   <h2>A. Favorite Foods</h2>
++-   <ul>
++-    <li>Adobo</li>
++-    <li>Fried Chicken</li>
++-    <li>Burger</li>
++-    <li>Mix - Mix Pork Chop</li>
++-    <li>Fried Bangus</li>
++-    <li>Tocino</li>
++-    <li>Fried Bacon</li>
++-    <li>Fried Floured Brocolli</li>
++-    <li>Chicken Soup</li>
++-    <li>Beef Soup</li>
++-   </ul>
++ 
++-   <!--B. Ordered List -->
++-   <h2>B. Programming Languages</h2>
++-<ol>
++-     <li>1. JavaScript</li>
++-    <li>2. Python</li>
++-    <li>3. Java</li>
++-    <li>4. PHP</li>
++-    <li>5. C#</li>
++-    
++-</ol>
++-
++-<!-- C. Nested List -->
++-<h2>C. Computer Science</h2>
++-<ul>
++-    <li>Programming</li>
++-    <ul>
++-        <li>Java</li>
++-        <li>Python</li>
++-        <li>PHP</li>
++-    </ul>
++-    <li>
++-        <li>Web Developed</li>
++-        <ul>
++-            <li>HTML</li>
++-            <li>CSS</li>
++-            <LI>JavaScript</LI>
++-        </ul>
++-    </li>
++-</ul>
++-</body>
++-</html>
++
++commit 73d1fd11ee0be7a8d9b8e43582538c3737feb0e7
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Sat Oct 3 09:03:47 2026 +0800
++
++    Created Lab act  5 = links.html
++
++diff --git a/HTML-LAB/links.html b/HTML-LAB/links.html
++new file mode 100644
++index 0000000..05c7263
++--- /dev/null
+++++ b/HTML-LAB/links.html
++@@ -0,0 +1,54 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Lab Act 03 Lists</title>
+++</head>
+++<body>
+++   <!--A. Unordered List -->
+++   <h2>A. Favorite Foods</h2>
+++   <ul>
+++    <li>Adobo</li>
+++    <li>Fried Chicken</li>
+++    <li>Burger</li>
+++    <li>Mix - Mix Pork Chop</li>
+++    <li>Fried Bangus</li>
+++    <li>Tocino</li>
+++    <li>Fried Bacon</li>
+++    <li>Fried Floured Brocolli</li>
+++    <li>Chicken Soup</li>
+++    <li>Beef Soup</li>
+++   </ul>
+++
+++   <!--B. Ordered List -->
+++   <h2>B. Programming Languages</h2>
+++<ol>
+++     <li>1. JavaScript</li>
+++    <li>2. Python</li>
+++    <li>3. Java</li>
+++    <li>4. PHP</li>
+++    <li>5. C#</li>
+++    
+++</ol>
+++
+++<!-- C. Nested List -->
+++<h2>C. Computer Science</h2>
+++<ul>
+++    <li>Programming</li>
+++    <ul>
+++        <li>Java</li>
+++        <li>Python</li>
+++        <li>PHP</li>
+++    </ul>
+++    <li>
+++        <li>Web Developed</li>
+++        <ul>
+++            <li>HTML</li>
+++            <li>CSS</li>
+++            <LI>JavaScript</LI>
+++        </ul>
+++    </li>
+++</ul>
+++</body>
+++</html>
++
++commit b3008db3c80d2edb3da46f22f337bc4376e90ed9
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Sat Sep 26 02:02:58 2026 +0000
++
++    Lab Act 05 finished, Sept 26, 10:00 Am)
++
++diff --git a/images.html b/images.html
++new file mode 100644
++index 0000000..5f685f1
++--- /dev/null
+++++ b/images.html
++@@ -0,0 +1,42 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Images</title>
+++</head>
+++<body>
+++
+++    <section>
+++        <h2>PERSONAL PROFILE</h2>
+++
+++        <img 
+++        src="images/profile.jpg"
+++        alt="Profile photo"
+++        width="200"
+++        height="200">
+++        <h3>Colas, Schuyler Ryo A.</h3>
+++        <p>I am currently enrolled in University of Cordilleras, pursuing Information Technology. 
+++            I am currently in my 2nd year, 1st year.</p>
+++
+++    </section>
+++    
+++    <h2></h2>
+++
+++<section>
+++
+++    <h2>Clickable image Challenge</h2>
+++    <p>Click the image below to be able to open an external website:</p>
+++
+++    <a href="htpps://github.com" target="_blank">
+++        <img 
+++        src="image/profile.jpg" 
+++        alt="Clickable profile picture"
+++        width="200"
+++        height="200">
+++    </a>
+++
+++</section>
+++    
+++</body>
+++</html>
++\ No newline at end of file
++
++commit 9780e1c8626216d8a41ea23a7df4b9c48877efd5
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Thu Sep 24 09:48:30 2026 +0800
++
++    Create index.html
++    
++    LAb act 04 Finished
++
++diff --git a/HTML-LAB/index.html b/HTML-LAB/index.html
++new file mode 100644
++index 0000000..fc6f09e
++--- /dev/null
+++++ b/HTML-LAB/index.html
++@@ -0,0 +1,19 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Home</title>
+++</head>
+++<body>
+++    
+++    <nav>
+++        <a href="index.html">Home</a>
+++        <a href="about.html">About</a>
+++        <a href="contact.html">Contact</a>
+++
+++    </nav>
+++    <h1>Home Page</h1>
+++    <p>Welcome to the MainPage of this Website</p>
+++</body>
+++</html>
++
++commit 9c8fa1ac7800ee6a25dbc2f3712066f2067c4dfd
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Thu Sep 24 09:47:18 2026 +0800
++
++    Rename index.html to index(Lab01).html
++
++diff --git a/HTML-LAB/index.html b/HTML-LAB/index(Lab01).html
++similarity index 98%
++rename from HTML-LAB/index.html
++rename to HTML-LAB/index(Lab01).html
++index 79f8eff..c19bf9c 100644
++--- a/HTML-LAB/index.html
+++++ b/HTML-LAB/index(Lab01).html
++@@ -16,4 +16,4 @@
++     <p>My Hobbies: Drawing, Talking a Walk, DIY Arts</p>
++     <p>Thank you for taking time in reading this.s</p>
++ </body>
++-</html>
++\ No newline at end of file
+++</html>
++
++commit 79e231a841a84c3a8a37d81a380ee52751f284a2
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Thu Sep 24 09:43:27 2026 +0800
++
++    Update contact.html
++    
++    Finished Lab Act 04
++
++diff --git a/HTML-LAB/contact.html b/HTML-LAB/contact.html
++index e69de29..3d7e7ec 100644
++--- a/HTML-LAB/contact.html
+++++ b/HTML-LAB/contact.html
++@@ -0,0 +1,22 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Contact</title>
+++</head>
+++<body>
+++  
+++    <nav>
+++        <a href="index.html">Home</a>
+++        <a href="about.html">About</a>
+++        <a href="contact.html">Contact</a>
+++
+++    </nav>
+++    
+++    <h1>Contact Page</h1>
+++    <p>Welcome to the ContactPage, for futher information, interactions, or for help, 
+++        Please use this page.</p>
+++
+++</body>
+++</html>
++
++commit 75714617c5c8f86f072ac3b19360eb8acff7eda0
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Thu Sep 24 09:42:43 2026 +0800
++
++    Update about.html
++    
++    Finished lab act04
++
++diff --git a/HTML-LAB/about.html b/HTML-LAB/about.html
++index e69de29..b66a484 100644
++--- a/HTML-LAB/about.html
+++++ b/HTML-LAB/about.html
++@@ -0,0 +1,19 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>About</title>
+++</head>
+++<body>
+++
+++    <nav>
+++        <a href="index.html">Home</a>
+++        <a href="about.html">About</a>
+++        <a href="contact.html">Contact</a>
+++    </nav>
+++    
+++    <h1>About Page</h1>
+++    <p>Welcome to the AboutPage, come and learn more about us.</p>
+++</body>
+++</html>
++
++commit c1805b1080ba8afc78d762cbfbae144f3ef1ceb2
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Thu Sep 24 09:41:44 2026 +0800
++
++    Update lists.html
++
++diff --git a/HTML-LAB/lists.html b/HTML-LAB/lists.html
++index e69de29..a8c12af 100644
++--- a/HTML-LAB/lists.html
+++++ b/HTML-LAB/lists.html
++@@ -0,0 +1,54 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Lab Act 03 Lists</title>
+++</head>
+++<body>
+++   <!--A. Unordered List -->
+++   <h2>A. Favorite Foods</h2>
+++   <ul>
+++    <li>Adobo</li>
+++    <li>Fried Chicken</li>
+++    <li>Burger</li>
+++    <li>Mix - Mix Pork Chop</li>
+++    <li>Fried Bangus</li>
+++    <li>Tocino</li>
+++    <li>Fried Bacon</li>
+++    <li>Fried Floured Brocolli</li>
+++    <li>Chicken Soup</li>
+++    <li>Beef Soup</li>
+++   </ul>
+++
+++   <!--B. Ordered List -->
+++   <h2>B. Programming Languages</h2>
+++<ol>
+++     <li>1. JavaScript</li>
+++    <li>2. Python</li>
+++    <li>3. Java</li>
+++    <li>4. PHP</li>
+++    <li>5. C#</li>
+++    
+++</ol>
+++
+++<!-- C. Nested List -->
+++<h2>C. Computer Science</h2>
+++<ul>
+++    <li>Programming</li>
+++    <ul>
+++        <li>Java</li>
+++        <li>Python</li>
+++        <li>PHP</li>
+++    </ul>
+++    <li>
+++        <li>Web Developed</li>
+++        <ul>
+++            <li>HTML</li>
+++            <li>CSS</li>
+++            <LI>JavaScript</LI>
+++        </ul>
+++    </li>
+++</ul>
+++</body>
+++</html>
++
++commit d2937f0da789914f159dc59720bc76e9b4ded962
++Author: unknown <colasforgotten1@gmail.com>
++Date:   Sun Sep 20 18:30:44 2026 +0800
++
++    Lab 03 Completed (Note, This actvity was finished in the lab room but was not pushed because of technical reasons
++
++diff --git a/HTML-LAB/lists.html b/HTML-LAB/lists.html
++new file mode 100644
++index 0000000..e69de29
++
++commit 1bfa64df5d19545ab01588b15a1b30e7f5297ce4
++Author: unknown <colasforgotten1@gmail.com>
++Date:   Thu Sep 17 15:37:52 2026 +0800
++
++    Completed Lab Act2. Note That this was done in the Lab Room but was not pushed because of technical issues with the school com.
++
++diff --git a/HTML-LAB/formatting.html b/HTML-LAB/formatting.html
++new file mode 100644
++index 0000000..00ef2ab
++--- /dev/null
+++++ b/HTML-LAB/formatting.html
++@@ -0,0 +1,31 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++<meta charset="UTF-8">
+++<meta name="viewport" content="width=device-width, initial-scale=1.0">
+++<title>HTML Text Formatting</title>
+++</head>
+++<body>
+++
+++<h1>HTML Text Formating </h1>
+++<h2>Showing HTML formating tags</h2>
+++
+++<p><b>b:</b> This is <b>bold</b> using the "b" tag.</p>
+++<p><strong>strong:</strong> <strong>HTML</strong><em> stands for HyperText Markup Language.</em></p>
+++<p><i>i:</i> This text is <i>italicized</i> using the "i" tag.</p>
+++<p><em>em:</em> This text is <em>emphasized</em> using the "em" tag.</p>
+++<p><u>u:</u> The "u" tag represents a non-literary explanation.</p>
+++<p><mark>mark:</mark> This tag <mark>highlights</mark> a certain text or notation.</p>
+++<p><small>small:</small> The "small" tag represents <small>side-comments.</small> </p>
+++<p>del: The "del" tag represents text that has already been. <del>This has been delete4d.</del></p>
+++<p><ins>ins:</ins> This tag keeps track of text that have been inserted.</p>
+++<p>sub: This tag defines <sub>subscript text.</sub></p>
+++<p>sup: The "sup" tag defines <sup>Superscript Text.</sup></p>
+++
+++<hr>
+++<h2>Challenge</h2>
+++<p>Water Chemical Formula: H <sub>2</sub><sub>0</sub></p>
+++<p>Mass-Energy Equivalence: E = mc <sup>2</sup></p>
+++
+++</body>
+++</html>
++\ No newline at end of file
++
++commit 1a253c43c08f46fbe7e2226c59701037a985d6ef
++Author: unknown <colasforgotten1@gmail.com>
++Date:   Tue Sep 15 16:25:10 2026 +0800
++
++    Completed Lab Act 01 (
++
++diff --git a/HTML-LAB/about.html b/HTML-LAB/about.html
++new file mode 100644
++index 0000000..e69de29
++diff --git a/HTML-LAB/contact.html b/HTML-LAB/contact.html
++new file mode 100644
++index 0000000..e69de29
++diff --git a/HTML-LAB/index.html b/HTML-LAB/index.html
++new file mode 100644
++index 0000000..79f8eff
++--- /dev/null
+++++ b/HTML-LAB/index.html
++@@ -0,0 +1,19 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Lab Activity 01</title>
+++</head>
+++<body>
+++    <h1>Personal Page</h1>
+++    <hr>
+++
+++    <h2>Name: Colas, Schuyler Ryo A.</h2>
+++    <p>Bachelor of Science in Information Technology</p>
+++    <h2>About Me</h2>
+++    <p>I am a second year UC student.</p>
+++    <p>My Hobbies: Drawing, Talking a Walk, DIY Arts</p>
+++    <p>Thank you for taking time in reading this.s</p>
+++</body>
+++</html>
++\ No newline at end of file
++
++commit 1066116485545f7cb5c3068c026dfdebbdb5fb59
++Author: unknown <colasforgotten1@gmail.com>
++Date:   Mon Sep 7 19:15:33 2026 +0800
++
++    Added new file (Sept07)
++
++diff --git a/git_commands01.txt b/git_commands01.txt
++new file mode 100644
++index 0000000..a6b27d8
++--- /dev/null
+++++ b/git_commands01.txt
++@@ -0,0 +1,8 @@
+++Git Command Sheet
+++
+++Check Status: git status
+++Stage All Changes: git add .
+++Commit Changes: git commit -m "Your commit changes, example 'Another Practice (Sept07)'"
+++Push Changes To Remote: git push
+++Pull Latest Changes: git pull
+++Clone Repository: git clone://github.com/username/repo-name.git
++
++commit 5082bacc92106c4e2a3e3d1d720ccad1d88f0981
++Author: unknown <colasforgotten1@gmail.com>
++Date:   Sun Sep 6 16:23:39 2026 +0800
++
++    Just added a new file and folder in another device
++
++diff --git a/Lesson01.txt b/Lesson01.txt
++new file mode 100644
++index 0000000..e69de29
++
++commit 028c49bd88404cea5ca81ee29dc3dc626466c47b
++Author: colasforgotten1-star <colasforgotten1@gmail.com>
++Date:   Sun Sep 6 09:44:16 2026 +0800
++
++    Create Lesson01
++    
++    Testing
++
++diff --git a/Lesson01 b/Lesson01
++new file mode 100644
++index 0000000..6e69e1a
++--- /dev/null
+++++ b/Lesson01
++@@ -0,0 +1 @@
+++Hello, this is a practice for github 
+
 commit 14acb4e97fd5d4369f83a3ae0357947ae77f01e9
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Tue Oct 13 01:51:00 2026 +0000
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-13 01:51:00 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-10-13 01:51:00 +0000
 
     Created Sched
 
@@ -70,8 +1952,10 @@ index 0000000..0716ec9
 +</html>
 
 commit 14309a1d60e4f3834404fa6f11e980513dae0b53
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Tue Oct 13 01:36:02 2026 +0000
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-13 01:36:02 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-10-13 01:36:02 +0000
 
     Updated portfolio
 
@@ -198,8 +2082,10 @@ index bd439d6..e6aba3a 100644
 +</html>
 
 commit 0fd5f2f27c6150f4e21b52659884c93b8ef64df0
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Tue Oct 13 01:35:34 2026 +0000
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-13 01:35:34 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-10-13 01:35:34 +0000
 
     Updated indext
 
@@ -218,8 +2104,10 @@ index f0eca7d..0d55db0 100644
      
 
 commit bab033ee4809181af952c9ef2665f09dc3f0ce5e
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Sat Oct 10 01:48:52 2026 +0000
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-10 01:48:52 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-10-10 01:48:52 +0000
 
     Updated EMMET Portfolio
 
@@ -312,8 +2200,10 @@ index 73ee5a6..bd439d6 100644
 \ No newline at end of file
 
 commit 281400b25dcb9d792f5a9df1eb488dc199b3338e
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Sat Oct 10 01:48:13 2026 +0000
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-10 01:48:13 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-10-10 01:48:13 +0000
 
     Updated EMMET Indext
 
@@ -339,8 +2229,10 @@ index d01f779..f0eca7d 100644
 \ No newline at end of file
 
 commit 8ae823142137475eb1b9abf26f4ec452fd3205e1
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Sat Oct 10 01:47:29 2026 +0000
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-10 01:47:29 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-10-10 01:47:29 +0000
 
     Updated 05
 
@@ -409,8 +2301,10 @@ index b3d88ca..8ea575d 100644
          <h1>My Portfolio</h1>
 
 commit 4348827422e77e7eeeb4005d601181544eefcf87
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Sat Oct 10 01:46:57 2026 +0000
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-10 01:46:57 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-10-10 01:46:57 +0000
 
     Updated o4
 
@@ -475,8 +2369,10 @@ index 7a392b7..ea92cf7 100644
 \ No newline at end of file
 
 commit 9b9aa466b87068f01a52b4484dfe1606599a5a1e
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Sat Oct 10 01:46:26 2026 +0000
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-10 01:46:26 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-10-10 01:46:26 +0000
 
     Updated 03
 
@@ -579,8 +2475,10 @@ index 7c290d1..2ef8b25 100644
 \ No newline at end of file
 
 commit 1792a86eaf3dd138d909f40997e5bb31bd59af1c
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Sat Oct 10 01:45:38 2026 +0000
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-10 01:45:38 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-10-10 01:45:38 +0000
 
     Updared 02
 
@@ -674,8 +2572,10 @@ index 7024de8..0435415 100644
  
 
 commit fbccceb917d9539171b0d5cdef62df5df5bb20a1
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Sat Oct 10 01:45:02 2026 +0000
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-10 01:45:02 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-10-10 01:45:02 +0000
 
     Updated 01
 
@@ -697,8 +2597,10 @@ index 6c1c3f0..fa44a47 100644
      <h2></h2>
 
 commit 296e6993454bf88577c759604010294281b480bc
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Thu Oct 8 01:47:37 2026 +0000
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-08 01:47:37 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-10-08 01:47:37 +0000
 
     Updatr4ed Portfolio HTML
 
@@ -774,8 +2676,10 @@ index 9b92dc1..73ee5a6 100644
 \ No newline at end of file
 
 commit 69232c5af41064238526c1fd145359e1248c1fa8
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Thu Oct 8 01:46:32 2026 +0000
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-08 01:46:32 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-10-08 01:46:32 +0000
 
     Updated o4 form HTML
 
@@ -819,8 +2723,10 @@ index 748f426..7a392b7 100644
  </body>
 
 commit 74d9835fb716f5cac587b1ebb9fe5190b7ca2b45
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Thu Oct 8 01:22:43 2026 +0000
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-08 01:22:43 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-10-08 01:22:43 +0000
 
     Updated 05 semantic html
 
@@ -857,8 +2763,10 @@ index 5955c5b..b3d88ca 100644
 \ No newline at end of file
 
 commit e51845eb7b9eba3b0f64ca57514fb3a9e66e4618
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Thu Oct 8 01:21:18 2026 +0000
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-08 01:21:18 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-10-08 01:21:18 +0000
 
     Updated 04 form html
 
@@ -890,8 +2798,10 @@ index 2a1ee19..748f426 100644
 \ No newline at end of file
 
 commit d4ecf89708c25c8069a79bc4ae178190adeb6c35
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Thu Oct 8 01:19:54 2026 +0000
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-08 01:19:54 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-10-08 01:19:54 +0000
 
     Created portfolio
 
@@ -926,8 +2836,10 @@ index 0000000..9b92dc1
 \ No newline at end of file
 
 commit eb321011f98d0f7cec511d1dce0899b4feb4a118
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Tue Oct 6 01:42:54 2026 +0000
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-06 01:42:54 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-10-06 01:42:54 +0000
 
     updated emmet
 
@@ -971,8 +2883,10 @@ index e8c72f4..5955c5b 100644
 \ No newline at end of file
 
 commit 1153e83ca83196c637f9c51b2fa0a371ff1b5bb9
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Tue Oct 6 01:28:10 2026 +0000
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-06 01:28:10 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-10-06 01:28:10 +0000
 
     Upadated emmet
 
@@ -1041,8 +2955,10 @@ index 0443951..2a1ee19 100644
 \ No newline at end of file
 
 commit e41641f8fe0f33bdf735bcbd91ca9cbe0cda04bd
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Tue Oct 6 01:07:54 2026 +0000
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-06 01:07:54 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-10-06 01:07:54 +0000
 
     Update emmet
 
@@ -1138,8 +3054,10 @@ index 8b13789..e69de29 100644
 -
 
 commit 0591330c657409ab7d4e1569e44f22b7ca90c2fe
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Sat Oct 3 01:51:11 2026 +0000
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-03 01:51:11 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-10-03 01:51:11 +0000
 
     Practiced Emmet Abbreviation, Created Emmet-Laboratory
 
@@ -1345,8 +3263,10 @@ index 0000000..d01f779
 \ No newline at end of file
 
 commit 87132a255d8d61b5507442bc37baa713cb69e3dc
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Sat Oct 3 09:05:19 2026 +0800
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-03 09:05:19 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-03 09:05:19 +0800
 
     Update links.html
 
@@ -1411,8 +3331,10 @@ index 05c7263..8b13789 100644
 -</html>
 
 commit 73d1fd11ee0be7a8d9b8e43582538c3737feb0e7
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Sat Oct 3 09:03:47 2026 +0800
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-10-03 09:03:47 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-03 09:03:47 +0800
 
     Created Lab act  5 = links.html
 
@@ -1478,8 +3400,10 @@ index 0000000..05c7263
 +</html>
 
 commit b3008db3c80d2edb3da46f22f337bc4376e90ed9
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Sat Sep 26 02:02:58 2026 +0000
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-09-26 02:02:58 +0000
+Commit:     colasforgotten1-star <colasforgotten1@gmail.com>
+CommitDate: 2026-09-26 02:02:58 +0000
 
     Lab Act 05 finished, Sept 26, 10:00 Am)
 
@@ -1534,8 +3458,10 @@ index 0000000..5f685f1
 \ No newline at end of file
 
 commit 9780e1c8626216d8a41ea23a7df4b9c48877efd5
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Thu Sep 24 09:48:30 2026 +0800
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-09-24 09:48:30 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-24 09:48:30 +0800
 
     Create index.html
     
@@ -1568,8 +3494,10 @@ index 0000000..fc6f09e
 +</html>
 
 commit 9c8fa1ac7800ee6a25dbc2f3712066f2067c4dfd
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Thu Sep 24 09:47:18 2026 +0800
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-09-24 09:47:18 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-24 09:47:18 +0800
 
     Rename index.html to index(Lab01).html
 
@@ -1589,8 +3517,10 @@ index 79f8eff..c19bf9c 100644
 +</html>
 
 commit 79e231a841a84c3a8a37d81a380ee52751f284a2
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Thu Sep 24 09:43:27 2026 +0800
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-09-24 09:43:27 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-24 09:43:27 +0800
 
     Update contact.html
     
@@ -1625,8 +3555,10 @@ index e69de29..3d7e7ec 100644
 +</html>
 
 commit 75714617c5c8f86f072ac3b19360eb8acff7eda0
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Thu Sep 24 09:42:43 2026 +0800
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-09-24 09:42:43 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-24 09:42:43 +0800
 
     Update about.html
     
@@ -1658,8 +3590,10 @@ index e69de29..b66a484 100644
 +</html>
 
 commit c1805b1080ba8afc78d762cbfbae144f3ef1ceb2
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Thu Sep 24 09:41:44 2026 +0800
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-09-24 09:41:44 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-24 09:41:44 +0800
 
     Update lists.html
 
@@ -1724,8 +3658,10 @@ index e69de29..a8c12af 100644
 +</html>
 
 commit d2937f0da789914f159dc59720bc76e9b4ded962
-Author: unknown <colasforgotten1@gmail.com>
-Date:   Sun Sep 20 18:30:44 2026 +0800
+Author:     unknown <colasforgotten1@gmail.com>
+AuthorDate: 2026-09-20 18:30:44 +0800
+Commit:     unknown <colasforgotten1@gmail.com>
+CommitDate: 2026-09-20 18:30:44 +0800
 
     Lab 03 Completed (Note, This actvity was finished in the lab room but was not pushed because of technical reasons
 
@@ -1734,8 +3670,10 @@ new file mode 100644
 index 0000000..e69de29
 
 commit 1bfa64df5d19545ab01588b15a1b30e7f5297ce4
-Author: unknown <colasforgotten1@gmail.com>
-Date:   Thu Sep 17 15:37:52 2026 +0800
+Author:     unknown <colasforgotten1@gmail.com>
+AuthorDate: 2026-09-17 15:37:52 +0800
+Commit:     unknown <colasforgotten1@gmail.com>
+CommitDate: 2026-09-17 15:37:52 +0800
 
     Completed Lab Act2. Note That this was done in the Lab Room but was not pushed because of technical issues with the school com.
 
@@ -1779,8 +3717,10 @@ index 0000000..00ef2ab
 \ No newline at end of file
 
 commit 1a253c43c08f46fbe7e2226c59701037a985d6ef
-Author: unknown <colasforgotten1@gmail.com>
-Date:   Tue Sep 15 16:25:10 2026 +0800
+Author:     unknown <colasforgotten1@gmail.com>
+AuthorDate: 2026-09-15 16:25:10 +0800
+Commit:     unknown <colasforgotten1@gmail.com>
+CommitDate: 2026-09-15 16:25:10 +0800
 
     Completed Lab Act 01 (
 
@@ -1818,8 +3758,10 @@ index 0000000..79f8eff
 \ No newline at end of file
 
 commit 1066116485545f7cb5c3068c026dfdebbdb5fb59
-Author: unknown <colasforgotten1@gmail.com>
-Date:   Mon Sep 7 19:15:33 2026 +0800
+Author:     unknown <colasforgotten1@gmail.com>
+AuthorDate: 2026-09-07 19:15:33 +0800
+Commit:     unknown <colasforgotten1@gmail.com>
+CommitDate: 2026-09-07 19:15:33 +0800
 
     Added new file (Sept07)
 
@@ -1839,8 +3781,10 @@ index 0000000..a6b27d8
 +Clone Repository: git clone://github.com/username/repo-name.git
 
 commit 5082bacc92106c4e2a3e3d1d720ccad1d88f0981
-Author: unknown <colasforgotten1@gmail.com>
-Date:   Sun Sep 6 16:23:39 2026 +0800
+Author:     unknown <colasforgotten1@gmail.com>
+AuthorDate: 2026-09-06 16:23:39 +0800
+Commit:     unknown <colasforgotten1@gmail.com>
+CommitDate: 2026-09-06 16:23:39 +0800
 
     Just added a new file and folder in another device
 
@@ -1849,8 +3793,10 @@ new file mode 100644
 index 0000000..e69de29
 
 commit 028c49bd88404cea5ca81ee29dc3dc626466c47b
-Author: colasforgotten1-star <colasforgotten1@gmail.com>
-Date:   Sun Sep 6 09:44:16 2026 +0800
+Author:     colasforgotten1-star <colasforgotten1@gmail.com>
+AuthorDate: 2026-09-06 09:44:16 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-06 09:44:16 +0800
 
     Create Lesson01
     
